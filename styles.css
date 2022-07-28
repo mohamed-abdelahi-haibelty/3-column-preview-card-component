@@ -69,3 +69,20 @@ button:hover{
     color: var(--white);
     border: 2px solid var(--white);
 }
+@media (min-width:600px){
+    .container{
+        grid-template-columns: auto auto auto;
+        position: absolute;
+        left: 18%;
+        right: 18%;
+    }
+    .one{
+        border-bottom-left-radius: 15px;
+        border-top-right-radius: 0px;
+    }
+    .third{
+        border-top-right-radius: 15px;
+        border-bottom-left-radius: 0px;
+
+    }
+}
