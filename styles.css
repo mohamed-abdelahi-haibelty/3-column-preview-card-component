@@ -64,3 +64,8 @@ button{
     padding: 14px 30px;
     border: none;
 }
+button:hover{
+    background-color: transparent;
+    color: var(--white);
+    border: 2px solid var(--white);
+}
